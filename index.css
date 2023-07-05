@@ -1,0 +1,61 @@
+.container {
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  max-width: 100%;
+  margin-top: 10%;
+  position: relative;
+  padding: 0;
+  list-style: none;
+  font-size: 25px;
+}
+
+.menu li {
+  position: relative;
+  width: 250px;
+  padding: 10px;
+}
+
+.menu>li {
+  display: inline-flex;
+}
+
+.menu li {
+  background: rgb(59, 109, 249);
+  text-align: left;
+}
+
+.menu li:hover {
+  background: rgb(0, 62, 155);
+}
+
+.menu li:hover>.categories {
+  display: block;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+}
+
+.menu ul ul {
+  top: 0;
+  left: 100%;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+  padding: 10px;
+}
